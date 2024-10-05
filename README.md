@@ -93,10 +93,8 @@ The 'Clear Completed' button is disabled.
 ### Running the Tests:
 1. Clone or download the project.
 2. Ensure the ChromeDriver path is correctly set in the `setUp()` method in the `ToDo_Test.java` file.
-3. Use the following Maven command to execute the test suite:
-   ```bash
-   mvn test
-   ```
+3. Run by using TestNG
+  
 4. After the test execution, the TestNG report will be generated automatically, providing a summary of all tests executed.
 
 ## Conclusion
