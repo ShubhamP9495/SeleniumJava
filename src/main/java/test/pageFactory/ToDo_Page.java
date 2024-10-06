@@ -18,7 +18,7 @@ import org.testng.Reporter;
 public class ToDo_Page {
 
 	@FindBy(how = How.XPATH, using = "//input[@id='todo-input']")
-	WebElement todoTextBox;  // Removed static
+	WebElement todoTextBox; 
 
 	@FindBy(how = How.XPATH, using = "(//input[@type='checkbox'])[1]")
 	WebElement AllCheckBoxSelectBtn; 
