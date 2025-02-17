@@ -42,7 +42,8 @@ public class LoginPage
 
 	}
 
-	public void enterUsername() throws InterruptedException {
+	public void enterUsername() throws InterruptedException 
+	{
 		Thread.sleep(2000);
 	    wait.until(ExpectedConditions.visibilityOf(username)).sendKeys("student");
 	    System.out.println("Username entered");

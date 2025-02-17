@@ -28,7 +28,7 @@ public class ApiTest {
                 .contentType(ContentType.JSON) 
                 .statusCode(201) // Verify successful creation status cod
                 .body("name", equalTo("morpheus")) // Verify name in the response
-                .body("job", equalTo("leader")) // Verify job in the response
+                .body("job", equalTo("leader")) // Verify job in the
                 .extract().response();
 
         // Optional: Print the response for debugging

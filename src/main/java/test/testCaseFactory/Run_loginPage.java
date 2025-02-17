@@ -7,7 +7,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import io.testproject.sdk.drivers.web.ChromeDriver;
 import io.testproject.sdk.internal.exceptions.AgentConnectException;
 import io.testproject.sdk.internal.exceptions.InvalidTokenException;
 import io.testproject.sdk.internal.exceptions.ObsoleteVersionException;

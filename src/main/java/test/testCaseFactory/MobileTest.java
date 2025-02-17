@@ -28,7 +28,8 @@ public class MobileTest {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(password)).sendKeys(pass);
 	}
 
-	public void selectFirstResult() {
+	public void selectFirstResult() 
+	{
 		wait.until(ExpectedConditions.elementToBeClickable(submitBtn)).click();
 	}
 }
