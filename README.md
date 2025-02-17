@@ -9,7 +9,7 @@ This repository contains an automated test suite designed to validate the functi
 ### What is Being Tested?
 The test suite covers both **positive** and **negative** test cases for different functionalities in the ToDo app, including:
 - Added login page webelemtnts and naviget for login. (used safaridriver and chromedriver)
-- Added post api test method in test class
+- Added post api test method in test class (RestAssured)
 - added mobile test method (which will only support for appium tool)
 
 ## Patterns and Approaches Used
