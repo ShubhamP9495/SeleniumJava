@@ -2,6 +2,7 @@
 
 #Find the files with below location
 **src/main/java/test**
+Page class and the test class for Rest assured and selenium java.
 
 ## Overview
 This repository contains an automated test suite designed to validate the functionality of a **Gravity** Assignment
